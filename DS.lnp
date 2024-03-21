@@ -1,0 +1,16 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\dual_security.o"
+".\i2c.o"
+".\external_interrupt.o"
+".\kpm.o"
+".\lcd.o"
+".\project.o"
+".\project_main.o"
+".\r305.o"
+".\uart0.o"
+--strict --scatter ".\DS.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\DS.map" -o .\DS.axf

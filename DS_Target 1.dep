@@ -1,0 +1,59 @@
+Dependencies for Project 'DS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.c)(0x65FBCC4D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (delay.h)(0x65FBCC66)
+I (types.h)(0x65FBCCF7)
+F (.\dual_security.c)(0x65FBCCBF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\dual_security.o --omf_browse .\dual_security.crf --depend .\dual_security.d)
+F (.\i2c.c)(0x65FBCCFC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (i2c_define.h)(0x65FBCD0B)
+I (types.h)(0x65FBCCF7)
+I (defines.h)(0x65FBCC3E)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x65FBCC66)
+F (.\external_interrupt.c)(0x65FBCCD6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\external_interrupt.o --omf_browse .\external_interrupt.crf --depend .\external_interrupt.d)
+I (dual_Security.h)(0x65FBCCBA)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (types.h)(0x65FBCCF7)
+I (external_interrupt.h)(0x65FBCCDE)
+F (.\kpm.c)(0x65FBCD2B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (types.h)(0x65FBCCF7)
+I (defines.h)(0x65FBCC3E)
+I (kpm.h)(0x65FBCD28)
+F (.\lcd.c)(0x65FBCC52)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (lcd.h)(0x65FBCC62)
+I (types.h)(0x65FBCCF7)
+I (lcd_defines.h)(0x65FBCC70)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (defines.h)(0x65FBCC3E)
+I (delay.h)(0x65FBCC66)
+F (.\project.c)(0x65FBCC82)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\project.o --omf_browse .\project.crf --depend .\project.d)
+I (project.h)(0x65FBCC89)
+I (dual_Security.h)(0x65FBCCBA)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (types.h)(0x65FBCCF7)
+I (lcd.h)(0x65FBCC62)
+I (kpm.h)(0x65FBCD28)
+I (i2c_define.h)(0x65FBCD0B)
+I (defines.h)(0x65FBCC3E)
+I (external_interrupt.h)(0x65FBCCDE)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (rtc.h)(0x65FBCCE5)
+I (uart0.h)(0x65FBCD1C)
+I (R305.h)(0x65FBCCAC)
+I (delay.h)(0x65FBCC66)
+F (.\project_main.c)(0x65FBCC95)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\project_main.o --omf_browse .\project_main.crf --depend .\project_main.d)
+I (dual_Security.h)(0x65FBCCBA)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (types.h)(0x65FBCCF7)
+F (.\R305.c)(0x65FBCCA5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\r305.o --omf_browse .\r305.crf --depend .\r305.d)
+I (uart0.h)(0x65FBCD1C)
+I (lcd.h)(0x65FBCC62)
+I (types.h)(0x65FBCCF7)
+I (delay.h)(0x65FBCC66)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+F (.\uart0.c)(0x65FBCD19)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart0.o --omf_browse .\uart0.crf --depend .\uart0.d)
+I (dual_Security.h)(0x65FBCCBA)
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (types.h)(0x65FBCCF7)
+I (uart0.h)(0x65FBCD1C)
